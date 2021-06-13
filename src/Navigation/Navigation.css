@@ -13,8 +13,7 @@ nav {
   line-height: 32px;
 }
 
-.nav__option {
-}
+
 
 .nav__optionLink{
 font-weight: bold;
@@ -26,7 +25,7 @@ font-weight: bold;
 
 .nav__optionLink:hover,
 .material-icons:hover {
-  color: #fdcc51 !important;
+  color: #AE442A !important;
 }
 
 .cartNumber {
@@ -38,5 +37,5 @@ font-weight: bold;
   top: 0%;
   bottom: 10%;
   padding: 0.3rem;
-  color: #fdcc51 !important;
+  color: #AE442A !important;
 }
