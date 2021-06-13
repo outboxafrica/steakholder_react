@@ -9,8 +9,8 @@ export default class MeatItem extends Component {
           <div className="meat__detail">
           <p className="meat__detailTitle">Bulgarian Meat</p>
           <div className="meat__detailOption">
-          <span className="material-icons">thumb_up</span>
-          <span className="material-icons">shopping_cart </span>
+          <span className="material-icons meat__detailOptionIcon">thumb_up</span>
+          <span className="material-icons meat__detailOptionIcon">shopping_cart </span>
           </div>
          
           </div>
