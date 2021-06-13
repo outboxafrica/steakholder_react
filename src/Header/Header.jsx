@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import './Header.css'
-export default class Header extends Component {
-    render() {
-        return (
-            <div className="header">
+
+function Header() {
+    return (
+        <div className="header">
             <div className="header__detail">
               <p className="header__detailTitle">
                 Eating Vegetables is a Mis-steak, Let’s save the planet
@@ -22,6 +22,10 @@ export default class Header extends Component {
               srcset=""
             />
             </div>
-        )
-    }
+    )
 }
+
+export default Header
+
+
+

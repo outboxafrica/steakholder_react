@@ -16,3 +16,7 @@
   background: #fdcc51;
 }
 
+.actionButton:hover{
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+}
+
