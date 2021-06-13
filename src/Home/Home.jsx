@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MeatItem from "../MeatItem/MeatItem";
 
 import "./Home.css";
 
@@ -25,10 +26,7 @@ export default class Home extends Component {
           />
         </div>
 
-        <div className="home__product">
-            <img  src="" alt="" srcset="" />
-
-        </div>
+ <MeatItem />
       </div>
 
     );

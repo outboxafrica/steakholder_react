@@ -1,0 +1,22 @@
+import React, { Component } from 'react'
+import './MeatItem.css'
+
+export default class MeatItem extends Component {
+    render() {
+        return (
+            <div className="meat">
+            <img className="meat__image" src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVhdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="" srcset="" />
+          <div className="meat__detail">
+          <p className="meat__detailTitle">Bulgarian Meat</p>
+          <div className="meat__detailOption">
+          <span className="material-icons">thumb_up</span>
+          <span className="material-icons">shopping_cart </span>
+          </div>
+         
+          </div>
+            
+            <p className="meat__price">UGX 20,000</p>
+        </div>
+        )
+    }
+}
