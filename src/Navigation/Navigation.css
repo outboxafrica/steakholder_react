@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(174, 68, 42, 0.5);
+  color: white !important;
+}
+
+.nav__logo {
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 32px;
+}
+
+
+
+.nav__optionLink{
+font-weight: bold;
+}
+.nav__optionLink,
+.material-icons {
+  margin-left: 2rem;
+}
+
+.nav__optionLink:hover,
+.material-icons:hover {
+  color: #AE442A !important;
+}
+
+.cartNumber {
+  font-size: 0.8rem;
+  font-weight: bolder;
+  position: absolute;
+  left: 98%;
+  right: 2%;
+  top: 0%;
+  bottom: 10%;
+  padding: 0.3rem;
+  color: #AE442A !important;
+}

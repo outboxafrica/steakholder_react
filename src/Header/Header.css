@@ -1,0 +1,33 @@
+
+.header {
+    display: flex;
+    margin: 5rem 0;
+  }
+  
+  .header__detailTitle {
+    
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.6rem;
+    color: rgba(35, 33, 42, 0.9);
+  }
+  
+  .header__detailSubtitle {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+  
+    color: rgba(35, 33, 42, 0.6);
+  }
+  
+  .header__image{
+      margin-left: 3rem;
+      width: 45%;
+  }

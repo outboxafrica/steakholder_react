@@ -1,0 +1,22 @@
+.home {
+    margin: 2rem;
+}
+
+
+.actionButton {
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 0.7rem;
+  padding: 0.3rem 1rem;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  background: #fdcc51;
+}
+
+.actionButton:hover{
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+}
+
